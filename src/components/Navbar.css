@@ -1,0 +1,12 @@
+.navbar{
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+
+}
+
+.navbar-nav {
+    margin-left: auto;
+    height:50%;
+   
+}

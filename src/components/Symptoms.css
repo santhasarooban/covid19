@@ -1,0 +1,81 @@
+.symptoms-container{
+    padding: 0;
+    margin: 0;
+    background-image: url('/media/santhasarooban/Local Disk/react js/projects/react-first-project/public/symptoms.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  
+   
+    
+}
+
+.div-1{
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 10;
+    width: 30%;
+    height: 30%;
+    margin-left: 7%;
+    margin-top: 10%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.div-2{
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    width: 30%;
+    height: 30%;
+    margin-left: 7%;
+    margin-top: 4%;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.div-1>h1{
+    font-size: 22px;
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    
+}
+.div-2>h1{
+    font-size: 22px;
+    width: 100%;
+    font-weight: bold;
+    justify-content: center;
+    padding: 5 px;
+    color: black;
+    align-items: center;
+}
+li{
+    font-size: 18px;
+    margin-left: 8px;
+}
+/*
+@media only screen and (max-width: 600px) {
+    .div-1{
+        background-color: rgba(255, 255, 255, 0.5);
+        opacity: 10;
+        width: 30%;
+        height: 30%;
+        margin-left: 7%;
+        margin-top: 10%;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .div-2{
+        background-color: rgba(255, 255, 255, 0.5);
+        
+        width: 30%;
+        height: 30%;
+        margin-left: 7%;
+        margin-top: 4%;
+        border-radius: 20px;
+        padding: 20px;
+    
+    }
+} */
