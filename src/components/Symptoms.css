@@ -12,7 +12,7 @@
 }
 
 .div-1{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     opacity: 10;
     width: 30%;
     height: 30%;
@@ -22,7 +22,7 @@
     padding: 20px;
 }
 .div-2{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     
     width: 30%;
     height: 30%;
@@ -55,27 +55,27 @@ li{
     font-size: 18px;
     margin-left: 8px;
 }
-/*
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 500px) {
     .div-1{
-        background-color: rgba(255, 255, 255, 0.5);
-        opacity: 10;
-        width: 30%;
-        height: 30%;
-        margin-left: 7%;
-        margin-top: 10%;
-        border-radius: 20px;
-        padding: 20px;
+        width: 45%;
+        height: auto;
     }
     .div-2{
-        background-color: rgba(255, 255, 255, 0.5);
-        
-        width: 30%;
-        height: 30%;
-        margin-left: 7%;
-        margin-top: 4%;
-        border-radius: 20px;
-        padding: 20px;
-    
+        width: 45%;
+        margin-top: 12%;
+        height: auto;
     }
-} */
+    h1{
+        margin: auto;
+    }
+    .div-1 > h1 {
+        font-size: 18px;
+    }
+    .div-2 > h1 {
+        font-size: 18px;
+    }
+    li{
+        margin: auto;
+        margin-left: -25px;
+    }
+}

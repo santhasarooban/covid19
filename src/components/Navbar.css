@@ -10,3 +10,9 @@
     height:50%;
    
 }
+.nav-item{
+    margin-left: 0%;
+}
+.dropdown-menu> li{
+    margin-left: 1%;
+}

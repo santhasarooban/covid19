@@ -6,7 +6,7 @@ function Tiles() {
     
       <div className="card card1" >
      
-        <img class="card-img-top" src="/tiles1.jpg" className='tiles_img' alt="Card" />
+        <img class="card-img-top tile-1" src="/tiles1.jpg" className='tiles_img' alt="Card" />
         <div class="card-body">
           <p class="card-text">Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age. </p>
         </div>

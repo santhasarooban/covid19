@@ -10,7 +10,7 @@
     weight: 100%;
     padding: 10%;
     justify-content: center;
-    background-color: white;
+    background-color: #ffffff;
     display: grid !important;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 50px;
@@ -32,12 +32,24 @@
     justify-content: center;
     border-radius: 8px;
 }
-.tile1{
-    height: 20%;
+
+.tile-1{
+    height: 50%;
 }
-.card-img-top{
-    height: 70% !important;
+.tiles_2{
+    height: 50%;
 }
 .card-text{
     color: black;
+}
+.card-body > p{
+    font-size: 22px;
+}
+@media all and (max-width: 500px) {
+    .tile-1{
+        height: 36%;
+    }
+    .card-body > p{
+        font-size: 18px;
+    }
 }

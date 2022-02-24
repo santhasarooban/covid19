@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Home from './pages/Home'
 import './Footer.css'
 function Footer() {
     return (
@@ -8,9 +7,12 @@ function Footer() {
           <div className="footer-container">
             <div className='upper'> 
             <br />
-            <p className='text'>Wear Mask and Stay Safe</p>
+            <p className='wear-txt'>Wear Mask and Stay Safe</p>
+            <div className='two-links'>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<Link to='#' className='dummy tohome'>Home</Link> &emsp;
             <a href='https://www.google.com/' target='_blank' className='dummy'>Browse</a>
+            </div>
+            
          </div>
          <br />
          <div className='icons-container'>
